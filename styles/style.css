@@ -1,0 +1,131 @@
+.jumbotron {
+  background-image: url("../img/background1.png");
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 0;
+  box-shadow: 0px 8px 8px #888888;
+}
+
+.jumbotron h1 {
+  font-family: 'Magra', sans-serif;
+  -webkit-text-stroke: 2px yellow;
+  text-align: center;
+  font-size: 80px;
+  color: #008601;
+  margin-top: 80px;
+}
+
+#my-navbar {
+  background-color: #008601;
+}
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand img {
+  max-height: 64px;
+  max-width: 80%;
+  margin: 0;
+}
+
+.navbar-nav li a {
+  color:#FFEC0E;
+  text-shadow: none;
+  font-size: 20px;
+}
+
+#nav navbar-nav li a{
+  text-align: right;
+  color:#FFEC0E;
+}
+.navbar-nav li a:hover {
+  background-color: #FFEC0E;
+  color: #008601;
+}
+.navbar-nav li a:focus {
+  background-color: #FFEC0E;
+  color: #008601;
+}
+.icon-bar {
+  background-color: #FFEC0E;
+}
+
+.wrapper {
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+i {
+  padding: 0px 10px;
+}
+
+.wrapper i:nth-child(1) {
+  margin-right: 25px;
+  color: #4867AA;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(1):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.wrapper i:nth-child(2) {
+  color: #1DA1F2;
+  margin-left: 25px;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(2):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+
+#highlights {
+  text-align: center;
+}
+
+#highlights h1{
+  font-family: 'Ultra', serif;
+  font-size: 100px;
+}
+
+#highlights p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#highlights p span{
+  color:#00adef;
+}
+
+.btn-group {
+  margin-top: 80px;
+}
+.btn-group>.btn:first-child {
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+}
+.panel-body p {
+  font-size: 18px;
+
+}
+.container {
+  width: 100%;
+}
+#about {
+  text-align: center;
+  font-size: 28px;
+}
