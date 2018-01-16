@@ -1,131 +1,274 @@
-.jumbotron {
-  background-image: url("../img/background1.png");
-  background-size: cover;
-  height: 650px;
-  margin-bottom: 0;
-  box-shadow: 0px 8px 8px #888888;
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.jumbotron h1 {
-  font-family: 'Magra', sans-serif;
-  -webkit-text-stroke: 2px yellow;
-  text-align: center;
-  font-size: 80px;
-  color: #008601;
-  margin-top: 80px;
+.caption {
+  padding-top: 15px;
 }
 
-#my-navbar {
-  background-color: #008601;
+.feedthumbnail {
+  padding-bottom: 15px;
+  padding-top: 10px;
 }
+
+/*----- NAV CONTENT
+------------------------------- */
+
+.logo-img {
+  height: 60px;
+}
+
 .navbar-brand {
-  padding: 0;
-}
-
-.navbar-brand img {
-  max-height: 64px;
-  max-width: 80%;
   margin: 0;
 }
 
-.navbar-nav li a {
-  color:#FFEC0E;
-  text-shadow: none;
-  font-size: 20px;
+.navbar {
+  background-color: #008600;
 }
 
-#nav navbar-nav li a{
-  text-align: right;
-  color:#FFEC0E;
-}
-.navbar-nav li a:hover {
-  background-color: #FFEC0E;
-  color: #008601;
-}
-.navbar-nav li a:focus {
-  background-color: #FFEC0E;
-  color: #008601;
-}
-.icon-bar {
-  background-color: #FFEC0E;
+.nav-link {
+  color: #ffff01;
 }
 
-.wrapper {
-  margin: 0;
-  margin-top: 50px;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+.navbar-toggler {
+  background-color: #FFFF01;
+  color: #008600;
 }
 
-i {
-  padding: 0px 10px;
+.dropdown-menu {
+  background-color: #FFFF01;
 }
 
-.wrapper i:nth-child(1) {
-  margin-right: 25px;
-  color: #4867AA;
-  cursor: pointer;
-  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
-  transition: all ease-in-out 150ms;
+.dropdown-item {
+  color: #008600;
 }
 
-.wrapper i:nth-child(1):hover {
-  margin-top: -10px;
-  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
-  transform: translate(0, -8);
+/*----- JUMBOTRONS/CAROUSEL
+------------------------------------------*/
+
+.jumbotron {
+  height: 400px;
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("../img/background.png");
+  background-size: cover;
+  position: relative;
+  padding: 50px;
+  text-align: center;
 }
 
-.wrapper i:nth-child(2) {
-  color: #1DA1F2;
-  margin-left: 25px;
-  cursor: pointer;
-  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
-  transition: all ease-in-out 150ms;
+.jumbotron7 {
+  height: 400px;
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("../img/welcome_sign.jpg");
+  background-size: cover;
+  position: relative;
+  padding: 50px;
+  text-align: center;
 }
 
-.wrapper i:nth-child(2):hover {
-  margin-top: -10px;
-  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
-  transform: translate(0, -8);
+.jumbotron6 {
+  height: 400px;
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("../img/xmasgifts.jpg");
+  background-size: cover;
+  position: relative;
+  padding: 50px;
+  text-align: center;
 }
 
+.jumbotron5 {
+  height: 400px;
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("../img/catbg.png");
+  background-size: cover;
+  position: relative;
+  padding: 50px;
+  text-align: center;
+}
+
+.jumbotron4 {
+  height: 400px;
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("../img/dogbg.png");
+  background-size: cover;
+  position: relative;
+  padding: 50px;
+  text-align: center;
+}
+
+.jumbotron3 {
+  height: 400px;
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("../img/grassbg.png");
+  background-size: cover;
+  position: relative;
+  padding: 50px;
+  text-align: center;
+}
+
+.jumbotron2 {
+  height: 400px;
+  background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url("../img/otheranimalsbg.png");
+  background-size: cover;
+  position: relative;
+  padding: 50px;
+  text-align: center;
+}
+
+#promo {
+  color: green;
+  margin-bottom: 180px;
+  font-family: 'Alegreya', serif;
+}
+
+.display-3 {
+  font-family: 'Alegreya', serif;
+  -webkit-text-stroke: 1.0px #FFFF01;
+  -webkit-text-fill-color: #008600;
+  margin-top: 100px;
+}
+
+/* HIGHLIGHTS
+-------------------------------------------------- */
 
 #highlights {
-  text-align: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-#highlights h1{
-  font-family: 'Ultra', serif;
-  font-size: 100px;
+.cincymag {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
-#highlights p {
-  font-size: 20px;
-  margin-bottom: 20px;
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing .col-lg-4 {
+  background-color: #ff7e00;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
-#highlights p span{
-  color:#00adef;
+.marketing h2 {
+  font-weight: normal;
+  padding: 5px;
+  margin: 0;
 }
 
-.btn-group {
-  margin-top: 80px;
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  font-weight: bold;
 }
-.btn-group>.btn:first-child {
-  height: 50px;
+
+.fa {
+  color: #ffc22c;
+}
+
+.col-lg-4 h2 {
+  color: #fafafa;
+}
+
+/* HISTORY CONTENT
+-------------------------------------------------- */
+
+.history-divider {
+  margin: 50px;
+}
+
+h2.history-heading {
+  padding-top: 0;
+}
+
+/* FOOTER
+----------------------------------------*/
+
+#hours {
+  padding-left: 25px;
+}
+
+/* DOG PRODUCTS
+----------------------------------------------*/
+
+#dogfeed {
+  padding-top: 20px;
+}
+
+.thumbnail {
+  align-items: center;
+}
+
+.feedthumbnail img {
+  height: 300px;
   width: 200px;
-  font-size: 18px;
 }
-.panel-body p {
-  font-size: 18px;
 
+.thumbnail img {
+  height: 300px;
+  width: 300px;
 }
-.container {
-  width: 100%;
+
+.divider {
+  margin: 3rem 0;
 }
-#about {
-  text-align: center;
-  font-size: 28px;
+
+/* CAT PRODUCTS
+----------------------------------------------*/
+
+#catfeed {
+  padding-top: 20px;
+}
+
+/* BIRD PRODUCTS
+----------------------------------------------*/
+
+.birdseed {
+  list-style-type: none;
+}
+
+/* GRASS PRODUCTS
+----------------------------------------------*/
+
+#grasssummary {
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+#grassseed h2 {
+  color: green;
+  padding-top: 15px;
+}
+
+#fertilizer h2 {
+  color: green;
+  padding-top: 15px;
+}
+
+/* GRASS PRODUCTS
+----------------------------------------------*/
+
+#otherfeed h2 {
+  color: green;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 435px) {
+  .display-3 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
 }
